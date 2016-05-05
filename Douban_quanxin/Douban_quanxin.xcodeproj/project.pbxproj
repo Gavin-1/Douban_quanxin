@@ -34,6 +34,8 @@
 
 /* Begin PBXFileReference section */
 		05EA02610361EE75E37283D5 /* Pods-Douban_quanxin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban_quanxin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douban_quanxin/Pods-Douban_quanxin.release.xcconfig"; sourceTree = "<group>"; };
+		26E893151CDB6BAE005201C0 /* CDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSideBarController.h; sourceTree = "<group>"; };
+		26E893161CDB6BAE005201C0 /* CDSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSideBarController.m; sourceTree = "<group>"; };
 		27F479C615DC837D4E4775A7 /* Pods-Douban_quanxin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban_quanxin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douban_quanxin/Pods-Douban_quanxin.debug.xcconfig"; sourceTree = "<group>"; };
 		2FB8ABB21CDB6D0700D47097 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../Desktop/Main.storyboard; sourceTree = "<group>"; };
 		2FB8ABB51CDB6D8700D47097 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -327,6 +329,7 @@
 				4A5B05C31CDB671700044517 /* AppDelegate.m in Sources */,
 				4A5B05E81CDB684D00044517 /* DFMPlaylist.m in Sources */,
 				4A5B05C01CDB671700044517 /* main.m in Sources */,
+				26E893171CDB6BAE005201C0 /* CDSideBarController.m in Sources */,
 				4A5B05EA1CDB684D00044517 /* DFMUpChannelsEntity.m in Sources */,
 				4A5B05E71CDB684D00044517 /* DFMHotChannelsEntity.m in Sources */,
 				4A5B05F81CDB68B400044517 /* SongInfo.m in Sources */,
@@ -439,7 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Douban_quanxin/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tangjiawen.org.Douban-quanxin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,7 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Douban_quanxin/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tangjiawen.org.Douban-quanxin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
