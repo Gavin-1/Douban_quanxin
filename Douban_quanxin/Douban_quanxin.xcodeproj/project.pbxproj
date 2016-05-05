@@ -93,11 +93,13 @@
 				26E893161CDB6BAE005201C0 /* CDSideBarController.m */,
 			);
 			name = CDSideBarController;
+			path = Douban_quanxin;
 			sourceTree = "<group>";
 		};
 		4A5B05B21CDB671700044517 = {
 			isa = PBXGroup;
 			children = (
+				26E893141CDB6B46005201C0 /* CDSideBarController */,
 				4A5B05BD1CDB671700044517 /* Douban_quanxin */,
 				4A5B05BC1CDB671700044517 /* Products */,
 				FA7754BE34EC05D95FA83E3E /* Pods */,
@@ -116,7 +118,6 @@
 		4A5B05BD1CDB671700044517 /* Douban_quanxin */ = {
 			isa = PBXGroup;
 			children = (
-				26E893141CDB6B46005201C0 /* CDSideBarController */,
 				4A5B05DB1CDB683300044517 /* Model */,
 				4A5B05C11CDB671700044517 /* AppDelegate.h */,
 				4A5B05C21CDB671700044517 /* AppDelegate.m */,
