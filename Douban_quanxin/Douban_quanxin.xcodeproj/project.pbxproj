@@ -28,7 +28,6 @@
 		4A5B05F31CDB688400044517 /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F01CDB688400044517 /* ProtocolClass.m */; };
 		4A5B05F81CDB68B400044517 /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F51CDB68B400044517 /* SongInfo.m */; };
 		4A5B05F91CDB68B400044517 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F71CDB68B400044517 /* UserInfo.m */; };
-		4A5B06041CDB789A00044517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B06021CDB789A00044517 /* Main.storyboard */; };
 		685B492B1EF1F7D29710F4C7 /* libPods-Douban_quanxin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E5C9B03C9161D987B044B4 /* libPods-Douban_quanxin.a */; };
 /* End PBXBuildFile section */
 
@@ -74,7 +73,6 @@
 		4A5B05F51CDB68B400044517 /* SongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInfo.m; sourceTree = "<group>"; };
 		4A5B05F61CDB68B400044517 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		4A5B05F71CDB68B400044517 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
-		4A5B06031CDB789A00044517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +132,6 @@
 				4A5B05C51CDB671700044517 /* ViewController.m */,
 				4A5B05CA1CDB671700044517 /* Assets.xcassets */,
 				4A5B05CC1CDB671700044517 /* LaunchScreen.storyboard */,
-				4A5B06021CDB789A00044517 /* Main.storyboard */,
 				4A5B05CF1CDB671700044517 /* Info.plist */,
 				4A5B05BE1CDB671700044517 /* Supporting Files */,
 			);
@@ -257,7 +254,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A5B06041CDB789A00044517 /* Main.storyboard in Resources */,
 				4A5B05CE1CDB671700044517 /* LaunchScreen.storyboard in Resources */,
 				4A5B05CB1CDB671700044517 /* Assets.xcassets in Resources */,
 			);
@@ -346,14 +342,6 @@
 				4A5B05CD1CDB671700044517 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		4A5B06021CDB789A00044517 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A5B06031CDB789A00044517 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
