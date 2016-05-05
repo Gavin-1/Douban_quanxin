@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FB8ABB31CDB6D0700D47097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB8ABB21CDB6D0700D47097 /* Main.storyboard */; };
 		2FB8ABBB1CDB6D8700D47097 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8ABB61CDB6D8700D47097 /* LoginViewController.m */; };
 		2FB8ABBC1CDB6D8700D47097 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8ABB81CDB6D8700D47097 /* SidebarController.m */; };
 		2FB8ABBD1CDB6D8700D47097 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8ABBA1CDB6D8700D47097 /* UserInfoViewController.m */; };
@@ -29,15 +28,13 @@
 		4A5B05F31CDB688400044517 /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F01CDB688400044517 /* ProtocolClass.m */; };
 		4A5B05F81CDB68B400044517 /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F51CDB68B400044517 /* SongInfo.m */; };
 		4A5B05F91CDB68B400044517 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F71CDB68B400044517 /* UserInfo.m */; };
+		4A5B06041CDB789A00044517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B06021CDB789A00044517 /* Main.storyboard */; };
 		685B492B1EF1F7D29710F4C7 /* libPods-Douban_quanxin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E5C9B03C9161D987B044B4 /* libPods-Douban_quanxin.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05EA02610361EE75E37283D5 /* Pods-Douban_quanxin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban_quanxin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douban_quanxin/Pods-Douban_quanxin.release.xcconfig"; sourceTree = "<group>"; };
-		26E893151CDB6BAE005201C0 /* CDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSideBarController.h; sourceTree = "<group>"; };
-		26E893161CDB6BAE005201C0 /* CDSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSideBarController.m; sourceTree = "<group>"; };
 		27F479C615DC837D4E4775A7 /* Pods-Douban_quanxin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban_quanxin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douban_quanxin/Pods-Douban_quanxin.debug.xcconfig"; sourceTree = "<group>"; };
-		2FB8ABB21CDB6D0700D47097 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../Desktop/Main.storyboard; sourceTree = "<group>"; };
 		2FB8ABB51CDB6D8700D47097 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		2FB8ABB61CDB6D8700D47097 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		2FB8ABB71CDB6D8700D47097 /* SidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarController.h; sourceTree = "<group>"; };
@@ -77,6 +74,7 @@
 		4A5B05F51CDB68B400044517 /* SongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInfo.m; sourceTree = "<group>"; };
 		4A5B05F61CDB68B400044517 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		4A5B05F71CDB68B400044517 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		4A5B06031CDB789A00044517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +133,8 @@
 				4A5B05C41CDB671700044517 /* ViewController.h */,
 				4A5B05C51CDB671700044517 /* ViewController.m */,
 				4A5B05CA1CDB671700044517 /* Assets.xcassets */,
-				2FB8ABB21CDB6D0700D47097 /* Main.storyboard */,
 				4A5B05CC1CDB671700044517 /* LaunchScreen.storyboard */,
+				4A5B06021CDB789A00044517 /* Main.storyboard */,
 				4A5B05CF1CDB671700044517 /* Info.plist */,
 				4A5B05BE1CDB671700044517 /* Supporting Files */,
 			);
@@ -259,7 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FB8ABB31CDB6D0700D47097 /* Main.storyboard in Resources */,
+				4A5B06041CDB789A00044517 /* Main.storyboard in Resources */,
 				4A5B05CE1CDB671700044517 /* LaunchScreen.storyboard in Resources */,
 				4A5B05CB1CDB671700044517 /* Assets.xcassets in Resources */,
 			);
@@ -329,7 +327,6 @@
 				4A5B05C31CDB671700044517 /* AppDelegate.m in Sources */,
 				4A5B05E81CDB684D00044517 /* DFMPlaylist.m in Sources */,
 				4A5B05C01CDB671700044517 /* main.m in Sources */,
-				26E893171CDB6BAE005201C0 /* CDSideBarController.m in Sources */,
 				4A5B05EA1CDB684D00044517 /* DFMUpChannelsEntity.m in Sources */,
 				4A5B05E71CDB684D00044517 /* DFMHotChannelsEntity.m in Sources */,
 				4A5B05F81CDB68B400044517 /* SongInfo.m in Sources */,
@@ -349,6 +346,14 @@
 				4A5B05CD1CDB671700044517 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4A5B06021CDB789A00044517 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5B06031CDB789A00044517 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
