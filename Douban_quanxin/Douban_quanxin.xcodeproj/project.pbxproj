@@ -26,6 +26,7 @@
 		4A5B05F31CDB688400044517 /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F01CDB688400044517 /* ProtocolClass.m */; };
 		4A5B05F81CDB68B400044517 /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F51CDB68B400044517 /* SongInfo.m */; };
 		4A5B05F91CDB68B400044517 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F71CDB68B400044517 /* UserInfo.m */; };
+		62ED1D151CDB6CDB00845318 /* ChannelsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ED1D141CDB6CDB00845318 /* ChannelsTableViewController.m */; };
 		685B492B1EF1F7D29710F4C7 /* libPods-Douban_quanxin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E5C9B03C9161D987B044B4 /* libPods-Douban_quanxin.a */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,8 @@
 		4A5B05F51CDB68B400044517 /* SongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInfo.m; sourceTree = "<group>"; };
 		4A5B05F61CDB68B400044517 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		4A5B05F71CDB68B400044517 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		62ED1D131CDB6CDB00845318 /* ChannelsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewController.h; sourceTree = "<group>"; };
+		62ED1D141CDB6CDB00845318 /* ChannelsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		4A5B05BD1CDB671700044517 /* Douban_quanxin */ = {
 			isa = PBXGroup;
 			children = (
+				62ED1D121CDB6C5900845318 /* controller */,
 				4A5B05DB1CDB683300044517 /* Model */,
 				4A5B05C11CDB671700044517 /* AppDelegate.h */,
 				4A5B05C21CDB671700044517 /* AppDelegate.m */,
@@ -151,6 +155,15 @@
 				4A5B05E51CDB684D00044517 /* DFMUpChannelsEntity.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		62ED1D121CDB6C5900845318 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				62ED1D131CDB6CDB00845318 /* ChannelsTableViewController.h */,
+				62ED1D141CDB6CDB00845318 /* ChannelsTableViewController.m */,
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 		EAD960310AEF3511B5EAA693 /* Frameworks */ = {
@@ -300,6 +313,7 @@
 				4A5B05E61CDB684D00044517 /* ChannelInfo.m in Sources */,
 				4A5B05F31CDB688400044517 /* ProtocolClass.m in Sources */,
 				4A5B05C31CDB671700044517 /* AppDelegate.m in Sources */,
+				62ED1D151CDB6CDB00845318 /* ChannelsTableViewController.m in Sources */,
 				4A5B05E81CDB684D00044517 /* DFMPlaylist.m in Sources */,
 				4A5B05C01CDB671700044517 /* main.m in Sources */,
 				4A5B05EA1CDB684D00044517 /* DFMUpChannelsEntity.m in Sources */,
