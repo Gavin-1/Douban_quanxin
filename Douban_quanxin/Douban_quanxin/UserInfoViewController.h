@@ -27,6 +27,7 @@
 
 //响应注销按钮
 - (IBAction)logoutButtonTapped:(UIButton *)sender;
+
 //建立用户信息
 -(void)setUserInfo;
 //注销成功
