@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26E7BB311CDC74F500EA3144 /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E7BB301CDC74F500EA3144 /* CDSideBarController.m */; };
-		26E7BB391CDC773100EA3144 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E7BB341CDC773100EA3144 /* LoginViewController.m */; };
-		26E7BB3A1CDC773100EA3144 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E7BB361CDC773100EA3144 /* SidebarController.m */; };
-		26E7BB3B1CDC773100EA3144 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E7BB381CDC773100EA3144 /* UserInfoViewController.m */; };
+		26E7BB311CDC74F500EA3144 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		26E7BB391CDC773100EA3144 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		26E7BB3A1CDC773100EA3144 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		26E7BB3B1CDC773100EA3144 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2FB8ABBB1CDB6D8700D47097 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8ABB61CDB6D8700D47097 /* LoginViewController.m */; };
 		2FB8ABBC1CDB6D8700D47097 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8ABB81CDB6D8700D47097 /* SidebarController.m */; };
 		2FB8ABBD1CDB6D8700D47097 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8ABBA1CDB6D8700D47097 /* UserInfoViewController.m */; };
@@ -32,19 +32,16 @@
 		4A5B05F31CDB688400044517 /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F01CDB688400044517 /* ProtocolClass.m */; };
 		4A5B05F81CDB68B400044517 /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F51CDB68B400044517 /* SongInfo.m */; };
 		4A5B05F91CDB68B400044517 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F71CDB68B400044517 /* UserInfo.m */; };
+		62ED1D151CDB6CDB00845318 /* ChannelsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ED1D141CDB6CDB00845318 /* ChannelsTableViewController.m */; };
+		62F5AAF61CDC7E3100B2C17D /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5AAEF1CDC7E3100B2C17D /* CDSideBarController.m */; };
+		62F5AAF71CDC7E3100B2C17D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5AAF11CDC7E3100B2C17D /* LoginViewController.m */; };
+		62F5AAF81CDC7E3100B2C17D /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5AAF31CDC7E3100B2C17D /* SidebarController.m */; };
+		62F5AAF91CDC7E3100B2C17D /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5AAF51CDC7E3100B2C17D /* UserInfoViewController.m */; };
 		685B492B1EF1F7D29710F4C7 /* libPods-Douban_quanxin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E5C9B03C9161D987B044B4 /* libPods-Douban_quanxin.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05EA02610361EE75E37283D5 /* Pods-Douban_quanxin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban_quanxin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douban_quanxin/Pods-Douban_quanxin.release.xcconfig"; sourceTree = "<group>"; };
-		26E7BB2F1CDC74F500EA3144 /* CDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDSideBarController.h; path = Douban_quanxin/CDSideBarController.h; sourceTree = "<group>"; };
-		26E7BB301CDC74F500EA3144 /* CDSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDSideBarController.m; path = Douban_quanxin/CDSideBarController.m; sourceTree = "<group>"; };
-		26E7BB331CDC773100EA3144 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Douban_quanxin/LoginViewController.h; sourceTree = "<group>"; };
-		26E7BB341CDC773100EA3144 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Douban_quanxin/LoginViewController.m; sourceTree = "<group>"; };
-		26E7BB351CDC773100EA3144 /* SidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SidebarController.h; path = Douban_quanxin/SidebarController.h; sourceTree = "<group>"; };
-		26E7BB361CDC773100EA3144 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SidebarController.m; path = Douban_quanxin/SidebarController.m; sourceTree = "<group>"; };
-		26E7BB371CDC773100EA3144 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserInfoViewController.h; path = Douban_quanxin/UserInfoViewController.h; sourceTree = "<group>"; };
-		26E7BB381CDC773100EA3144 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserInfoViewController.m; path = Douban_quanxin/UserInfoViewController.m; sourceTree = "<group>"; };
 		27F479C615DC837D4E4775A7 /* Pods-Douban_quanxin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban_quanxin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douban_quanxin/Pods-Douban_quanxin.debug.xcconfig"; sourceTree = "<group>"; };
 		2FB8ABB61CDB6D8700D47097 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		2FB8ABB81CDB6D8700D47097 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarController.m; sourceTree = "<group>"; };
@@ -83,6 +80,16 @@
 		4A5B05F51CDB68B400044517 /* SongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInfo.m; sourceTree = "<group>"; };
 		4A5B05F61CDB68B400044517 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		4A5B05F71CDB68B400044517 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		62ED1D131CDB6CDB00845318 /* ChannelsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewController.h; sourceTree = "<group>"; };
+		62ED1D141CDB6CDB00845318 /* ChannelsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewController.m; sourceTree = "<group>"; };
+		62F5AAEE1CDC7E3100B2C17D /* CDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSideBarController.h; sourceTree = "<group>"; };
+		62F5AAEF1CDC7E3100B2C17D /* CDSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSideBarController.m; sourceTree = "<group>"; };
+		62F5AAF01CDC7E3100B2C17D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		62F5AAF11CDC7E3100B2C17D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		62F5AAF21CDC7E3100B2C17D /* SidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarController.h; sourceTree = "<group>"; };
+		62F5AAF31CDC7E3100B2C17D /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarController.m; sourceTree = "<group>"; };
+		62F5AAF41CDC7E3100B2C17D /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		62F5AAF51CDC7E3100B2C17D /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,32 +107,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26E7BB321CDC76E500EA3144 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				26E7BB331CDC773100EA3144 /* LoginViewController.h */,
-				26E7BB341CDC773100EA3144 /* LoginViewController.m */,
-				26E7BB351CDC773100EA3144 /* SidebarController.h */,
-				26E7BB361CDC773100EA3144 /* SidebarController.m */,
-				26E7BB371CDC773100EA3144 /* UserInfoViewController.h */,
-				26E7BB381CDC773100EA3144 /* UserInfoViewController.m */,
-			);
-			name = Controller;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		26E7BB3D1CDC776C00EA3144 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
 		4A5B05B21CDB671700044517 = {
 			isa = PBXGroup;
 			children = (
-				26E7BB2F1CDC74F500EA3144 /* CDSideBarController.h */,
-				26E7BB301CDC74F500EA3144 /* CDSideBarController.m */,
 				4A5B05BD1CDB671700044517 /* Douban_quanxin */,
 				4A5B05BC1CDB671700044517 /* Products */,
 				FA7754BE34EC05D95FA83E3E /* Pods */,
@@ -144,9 +128,8 @@
 		4A5B05BD1CDB671700044517 /* Douban_quanxin */ = {
 			isa = PBXGroup;
 			children = (
-				26E7BB321CDC76E500EA3144 /* Controller */,
+				62ED1D121CDB6C5900845318 /* LIcontroller */,
 				4A5B05DB1CDB683300044517 /* Model */,
-				26E7BB3D1CDC776C00EA3144 /* View */,
 				4A5B05C11CDB671700044517 /* AppDelegate.h */,
 				2FB8ABC01CDB7B2100D47097 /* Main.storyboard */,
 				4A5B05C21CDB671700044517 /* AppDelegate.m */,
@@ -193,6 +176,23 @@
 				4A5B05E51CDB684D00044517 /* DFMUpChannelsEntity.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		62ED1D121CDB6C5900845318 /* LIcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				62ED1D131CDB6CDB00845318 /* ChannelsTableViewController.h */,
+				62ED1D141CDB6CDB00845318 /* ChannelsTableViewController.m */,
+				62F5AAEE1CDC7E3100B2C17D /* CDSideBarController.h */,
+				62F5AAEF1CDC7E3100B2C17D /* CDSideBarController.m */,
+				62F5AAF01CDC7E3100B2C17D /* LoginViewController.h */,
+				62F5AAF11CDC7E3100B2C17D /* LoginViewController.m */,
+				62F5AAF21CDC7E3100B2C17D /* SidebarController.h */,
+				62F5AAF31CDC7E3100B2C17D /* SidebarController.m */,
+				62F5AAF41CDC7E3100B2C17D /* UserInfoViewController.h */,
+				62F5AAF51CDC7E3100B2C17D /* UserInfoViewController.m */,
+			);
+			name = LIcontroller;
 			sourceTree = "<group>";
 		};
 		EAD960310AEF3511B5EAA693 /* Frameworks */ = {
@@ -337,25 +337,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A5B05F91CDB68B400044517 /* UserInfo.m in Sources */,
+				62F5AAF71CDC7E3100B2C17D /* LoginViewController.m in Sources */,
 				2FB8ABBC1CDB6D8700D47097 /* SidebarController.m in Sources */,
-				26E7BB3A1CDC773100EA3144 /* SidebarController.m in Sources */,
+				26E7BB3A1CDC773100EA3144 /* (null) in Sources */,
+				62F5AAF81CDC7E3100B2C17D /* SidebarController.m in Sources */,
 				4A5B05C61CDB671700044517 /* ViewController.m in Sources */,
 				4A5B05E61CDB684D00044517 /* ChannelInfo.m in Sources */,
-				26E7BB3B1CDC773100EA3144 /* UserInfoViewController.m in Sources */,
+				26E7BB3B1CDC773100EA3144 /* (null) in Sources */,
 				4A5B05F31CDB688400044517 /* ProtocolClass.m in Sources */,
-				26E7BB311CDC74F500EA3144 /* CDSideBarController.m in Sources */,
+				26E7BB311CDC74F500EA3144 /* (null) in Sources */,
 				2FB8ABBB1CDB6D8700D47097 /* LoginViewController.m in Sources */,
 				4A5B05C31CDB671700044517 /* AppDelegate.m in Sources */,
+				62ED1D151CDB6CDB00845318 /* ChannelsTableViewController.m in Sources */,
 				4A5B05E81CDB684D00044517 /* DFMPlaylist.m in Sources */,
 				4A5B05C01CDB671700044517 /* main.m in Sources */,
 				4A5B05EA1CDB684D00044517 /* DFMUpChannelsEntity.m in Sources */,
 				4A5B05E71CDB684D00044517 /* DFMHotChannelsEntity.m in Sources */,
 				4A5B05F81CDB68B400044517 /* SongInfo.m in Sources */,
 				4A5B05F11CDB688400044517 /* NetworkManager.m in Sources */,
-				26E7BB391CDC773100EA3144 /* LoginViewController.m in Sources */,
+				26E7BB391CDC773100EA3144 /* (null) in Sources */,
+				62F5AAF91CDC7E3100B2C17D /* UserInfoViewController.m in Sources */,
 				2FB8ABBD1CDB6D8700D47097 /* UserInfoViewController.m in Sources */,
 				4A5B05F21CDB688400044517 /* PlayerController.m in Sources */,
 				4A5B05E91CDB684D00044517 /* DFMRecChannelsEntity.m in Sources */,
+				62F5AAF61CDC7E3100B2C17D /* CDSideBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
