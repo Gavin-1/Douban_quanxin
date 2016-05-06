@@ -34,11 +34,11 @@
 //View将要出现时
 -(void)viewWillAppear:(BOOL)animated
 {
-    //刷新验证码
+    //加载验证码
     [self loadCaptchaImage];
     [super viewWillAppear:animated];
 }
-//刷新验证码图片事件
+//加载验证码图片事件
 -(void)loadCaptchaImage
 {
     [networkManager loadCaptchaImage];
@@ -71,6 +71,7 @@
     [_delegate setUserInfo];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+//通过url来获取验证码图片
 -(void)setCaptchaImageWithURLInString:(NSString *)url
 {
     [self.captchaImageview setImageWithURL:[NSURL URLWithString:url]];
