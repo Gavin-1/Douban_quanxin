@@ -128,6 +128,8 @@
 		4A5B05BD1CDB671700044517 /* Douban_quanxin */ = {
 			isa = PBXGroup;
 			children = (
+				62F5AAEE1CDC7E3100B2C17D /* CDSideBarController.h */,
+				62F5AAEF1CDC7E3100B2C17D /* CDSideBarController.m */,
 				62ED1D121CDB6C5900845318 /* LIcontroller */,
 				4A5B05DB1CDB683300044517 /* Model */,
 				4A5B05C11CDB671700044517 /* AppDelegate.h */,
@@ -183,8 +185,6 @@
 			children = (
 				62ED1D131CDB6CDB00845318 /* ChannelsTableViewController.h */,
 				62ED1D141CDB6CDB00845318 /* ChannelsTableViewController.m */,
-				62F5AAEE1CDC7E3100B2C17D /* CDSideBarController.h */,
-				62F5AAEF1CDC7E3100B2C17D /* CDSideBarController.m */,
 				62F5AAF01CDC7E3100B2C17D /* LoginViewController.h */,
 				62F5AAF11CDC7E3100B2C17D /* LoginViewController.m */,
 				62F5AAF21CDC7E3100B2C17D /* SidebarController.h */,
