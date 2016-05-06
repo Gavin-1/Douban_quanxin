@@ -74,7 +74,7 @@
 //通过url来获取验证码图片
 -(void)setCaptchaImageWithURLInString:(NSString *)url
 {
-    [self.captchaImageview setImageWithURL:[NSURL URLWithString:url]];
+    [self.captchaImageView setImageWithURL:[NSURL URLWithString:url]];
 }
 
 @end
