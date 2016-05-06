@@ -4,7 +4,7 @@
 //
 //  Created by lk on 16/5/4.
 //  Copyright © 2016年 唐家文. All rights reserved.
-//
+//主要功能：向服务器请求数据
 #import <Foundation/Foundation.h>
 #import "ProtocolClass.h"
 
