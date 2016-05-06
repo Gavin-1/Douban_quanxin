@@ -28,7 +28,8 @@
 #define CAPTCHAIDURLSTRING @"http://douban.fm/j/new_captcha"
 #define CAPTCHAIMGURLFORMATSTRING @"http://douban.fm/misc/captcha?size=m&id=%@"
 
-static NSMutableString *captchaID;
+#import "UserInfo.h"
+static NSMutableString *captchaID;//可变的字符串用来存放验证码；
 
 @interface NetworkManager(){
     AppDelegate *appDelegate;
