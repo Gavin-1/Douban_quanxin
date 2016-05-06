@@ -7,39 +7,73 @@
 //
 
 #import "LoginViewController.h"
-
+#import "NetworkManager.h"
+#import <UIImageView+AFNetworking.h>
 @interface LoginViewController ()
-
+{
+    NSMutableString* captchaID;//验证码ID
+    NetworkManager* networkManager;//单例
+    AppDelegate* appDelegate;
+}
 @end
 
 @implementation LoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    appDelegate=[UIApplication sharedApplication].delegate;
+    networkManager=[NetworkManager new];
+    networkManager.delegate=(id)self;
+    //初始化图片点击事件
+    UITapGestureRecognizer* singleTap=[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(loadCaptchaImage)];
+    //设置为单击
+    [singleTap setNumberOfTapsRequired:1];
+    self.captchaImageView.userInteractionEnabled=YES;
+    [self.captchaImageView addGestureRecognizer:singleTap];
+}
+//View将要出现时
+-(void)viewWillAppear:(BOOL)animated
+{
+    //刷新验证码
+    [self loadCaptchaImage];
+    [super viewWillAppear:animated];
+}
+//刷新验证码图片事件
+-(void)loadCaptchaImage
+{
+    [networkManager loadCaptchaImage];
+}
+- (IBAction)submitButtonTapped:(UIButton *)sender
+{
+    //获取输入的信息
+    NSString* username=_username.text;
+    NSString* password=_password.text;
+    NSString* captcha=_captcha.text;
+    //登录验证
+    [networkManager LoginwithUsername:username Password:password Captcha:captcha RememberOnorOff:@"off"];
+}
+//取消按钮的事件
+- (IBAction)cancelButtonTapped:(UIButton *)sender
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)backgroundTap:(id)sender
+{
+    //取消第一响应者的身份
+    [_username resignFirstResponder];
+    [_password resignFirstResponder];
+    [_captcha resignFirstResponder];
+}
+//代理实现 协议DoubanDelegate中的方法
+-(void)loginSuccess
+{
+    [_delegate setUserInfo];
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+-(void)setCaptchaImageWithURLInString:(NSString *)url
+{
+    [self.captchaImageview setImageWithURL:[NSURL URLWithString:url]];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
-- (IBAction)submitButtonTapped:(UIButton *)sender {
-}
-
-- (IBAction)cancelButtonTapped:(UIButton *)sender {
-}
-
-- (IBAction)backgroundTap:(id)sender {
-}
 @end
