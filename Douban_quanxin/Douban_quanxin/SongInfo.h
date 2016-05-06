@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 /**
- *  豆瓣中存放歌曲的所有信息
+ *  豆瓣中存放歌曲的所有信息等等
  */
 @interface SongInfo : NSObject
 

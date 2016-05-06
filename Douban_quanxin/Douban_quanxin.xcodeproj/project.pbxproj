@@ -32,6 +32,7 @@
 		4A5B05F31CDB688400044517 /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F01CDB688400044517 /* ProtocolClass.m */; };
 		4A5B05F81CDB68B400044517 /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F51CDB68B400044517 /* SongInfo.m */; };
 		4A5B05F91CDB68B400044517 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F71CDB68B400044517 /* UserInfo.m */; };
+		4AD3BDAD1CDCA88600B52F6D /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD3BDAC1CDCA88600B52F6D /* PlayerViewController.m */; };
 		62ED1D151CDB6CDB00845318 /* ChannelsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ED1D141CDB6CDB00845318 /* ChannelsTableViewController.m */; };
 		62F5AAF61CDC7E3100B2C17D /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5AAEF1CDC7E3100B2C17D /* CDSideBarController.m */; };
 		62F5AAF71CDC7E3100B2C17D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5AAF11CDC7E3100B2C17D /* LoginViewController.m */; };
@@ -80,6 +81,8 @@
 		4A5B05F51CDB68B400044517 /* SongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInfo.m; sourceTree = "<group>"; };
 		4A5B05F61CDB68B400044517 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		4A5B05F71CDB68B400044517 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		4AD3BDAB1CDCA88600B52F6D /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		4AD3BDAC1CDCA88600B52F6D /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 		62ED1D131CDB6CDB00845318 /* ChannelsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewController.h; sourceTree = "<group>"; };
 		62ED1D141CDB6CDB00845318 /* ChannelsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewController.m; sourceTree = "<group>"; };
 		62F5AAEE1CDC7E3100B2C17D /* CDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSideBarController.h; sourceTree = "<group>"; };
@@ -128,6 +131,7 @@
 		4A5B05BD1CDB671700044517 /* Douban_quanxin */ = {
 			isa = PBXGroup;
 			children = (
+				4AD3BDAA1CDCA7F600B52F6D /* tangController */,
 				62F5AAEE1CDC7E3100B2C17D /* CDSideBarController.h */,
 				62F5AAEF1CDC7E3100B2C17D /* CDSideBarController.m */,
 				62ED1D121CDB6C5900845318 /* LIcontroller */,
@@ -178,6 +182,15 @@
 				4A5B05E51CDB684D00044517 /* DFMUpChannelsEntity.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		4AD3BDAA1CDCA7F600B52F6D /* tangController */ = {
+			isa = PBXGroup;
+			children = (
+				4AD3BDAB1CDCA88600B52F6D /* PlayerViewController.h */,
+				4AD3BDAC1CDCA88600B52F6D /* PlayerViewController.m */,
+			);
+			name = tangController;
 			sourceTree = "<group>";
 		};
 		62ED1D121CDB6C5900845318 /* LIcontroller */ = {
@@ -341,6 +354,7 @@
 				2FB8ABBC1CDB6D8700D47097 /* SidebarController.m in Sources */,
 				26E7BB3A1CDC773100EA3144 /* (null) in Sources */,
 				62F5AAF81CDC7E3100B2C17D /* SidebarController.m in Sources */,
+				4AD3BDAD1CDCA88600B52F6D /* PlayerViewController.m in Sources */,
 				4A5B05C61CDB671700044517 /* ViewController.m in Sources */,
 				4A5B05E61CDB684D00044517 /* ChannelInfo.m in Sources */,
 				26E7BB3B1CDC773100EA3144 /* (null) in Sources */,
