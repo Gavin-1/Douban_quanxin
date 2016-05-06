@@ -113,8 +113,8 @@
     if (appDelegate.userInfo.cookies)
     {
         //通过userID，获取用户上传的登陆图片
-        [_loginImage setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://img3.douban.com/icon/ul%@-1.jpg",appDelegate.userInfo.userID]]];
-        _loginImage.userInteractionEnabled = NO;//忽略交互
+        [_loainImage setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://img3.douban.com/icon/ul%@-1.jpg",appDelegate.userInfo.userID]]];
+        _loainImage.userInteractionEnabled = NO;//忽略交互
         //获取用户的登陆信息
         _usernameLabel.text = appDelegate.userInfo.name;
         _playedLabel.text = appDelegate.userInfo.played;
@@ -124,8 +124,8 @@
     }
     //用户不存在时，界面显示的内容
     else{
-        [_loginImage setImage:[UIImage imageNamed:@"login"]];
-        _loginImage.userInteractionEnabled = YES;
+        [_loainImage setImage:[UIImage imageNamed:@"login"]];
+        _loainImage.userInteractionEnabled = YES;
         _usernameLabel.text = @"";
         _playedLabel.text = @"0";
         _likedLabel.text = @"0";

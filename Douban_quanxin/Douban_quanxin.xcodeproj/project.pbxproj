@@ -33,6 +33,7 @@
 		4A5B05F81CDB68B400044517 /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F51CDB68B400044517 /* SongInfo.m */; };
 		4A5B05F91CDB68B400044517 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F71CDB68B400044517 /* UserInfo.m */; };
 		4AD3BDAD1CDCA88600B52F6D /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD3BDAC1CDCA88600B52F6D /* PlayerViewController.m */; };
+		4AD3BDB31CDCB9FA00B52F6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD3BDB11CDCB9FA00B52F6D /* Main.storyboard */; };
 		62ED1D151CDB6CDB00845318 /* ChannelsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ED1D141CDB6CDB00845318 /* ChannelsTableViewController.m */; };
 		62F5AAF61CDC7E3100B2C17D /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5AAEF1CDC7E3100B2C17D /* CDSideBarController.m */; };
 		62F5AAF71CDC7E3100B2C17D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5AAF11CDC7E3100B2C17D /* LoginViewController.m */; };
@@ -82,6 +83,7 @@
 		4A5B05F71CDB68B400044517 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		4AD3BDAB1CDCA88600B52F6D /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
 		4AD3BDAC1CDCA88600B52F6D /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		4AD3BDB21CDCB9FA00B52F6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62ED1D131CDB6CDB00845318 /* ChannelsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewController.h; sourceTree = "<group>"; };
 		62ED1D141CDB6CDB00845318 /* ChannelsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewController.m; sourceTree = "<group>"; };
 		62F5AAEE1CDC7E3100B2C17D /* CDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSideBarController.h; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 		4AD3BDAA1CDCA7F600B52F6D /* tangController */ = {
 			isa = PBXGroup;
 			children = (
+				4AD3BDB11CDCB9FA00B52F6D /* Main.storyboard */,
 				4AD3BDAB1CDCA88600B52F6D /* PlayerViewController.h */,
 				4AD3BDAC1CDCA88600B52F6D /* PlayerViewController.m */,
 			);
@@ -287,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AD3BDB31CDCB9FA00B52F6D /* Main.storyboard in Resources */,
 				4A5B05CE1CDB671700044517 /* LaunchScreen.storyboard in Resources */,
 				4A5B05CB1CDB671700044517 /* Assets.xcassets in Resources */,
 			);
@@ -385,6 +389,14 @@
 				4A5B05CD1CDB671700044517 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4AD3BDB11CDCB9FA00B52F6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AD3BDB21CDCB9FA00B52F6D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
