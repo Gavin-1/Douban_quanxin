@@ -14,7 +14,7 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 #import "AppDelegate.h"
-//#import "NetworkManager.h"
+#import "NetworkManager.h"
 #import "ProtocolClass.h"
 #import "DFMPlaylist.h"
 //这里面的MPMoviePlayerController在9.0版本后改成了AVPlayer....所以要想用这个的话就，所以大家把版本改成9.0以下，这样MPMoviePlayerController的方法就可以调用了
