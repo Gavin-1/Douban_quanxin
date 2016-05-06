@@ -10,7 +10,7 @@
 		2FB8ABBB1CDB6D8700D47097 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8ABB61CDB6D8700D47097 /* LoginViewController.m */; };
 		2FB8ABBC1CDB6D8700D47097 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8ABB81CDB6D8700D47097 /* SidebarController.m */; };
 		2FB8ABBD1CDB6D8700D47097 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8ABBA1CDB6D8700D47097 /* UserInfoViewController.m */; };
-		2FB8ABC11CDB7B2100D47097 /* Main1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB8ABC01CDB7B2100D47097 /* Main1.storyboard */; };
+		2FB8ABC11CDB7B2100D47097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB8ABC01CDB7B2100D47097 /* Main.storyboard */; };
 		4A5B05C01CDB671700044517 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05BF1CDB671700044517 /* main.m */; };
 		4A5B05C31CDB671700044517 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05C21CDB671700044517 /* AppDelegate.m */; };
 		4A5B05C61CDB671700044517 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05C51CDB671700044517 /* ViewController.m */; };
@@ -41,7 +41,7 @@
 		2FB8ABB81CDB6D8700D47097 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarController.m; sourceTree = "<group>"; };
 		2FB8ABB91CDB6D8700D47097 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
 		2FB8ABBA1CDB6D8700D47097 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
-		2FB8ABC01CDB7B2100D47097 /* Main1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main1.storyboard; sourceTree = "<group>"; };
+		2FB8ABC01CDB7B2100D47097 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		38E5C9B03C9161D987B044B4 /* libPods-Douban_quanxin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Douban_quanxin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5B05BB1CDB671700044517 /* Douban_quanxin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douban_quanxin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5B05BF1CDB671700044517 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 				2FB8ABB41CDB6D5000D47097 /* controller */,
 				4A5B05DB1CDB683300044517 /* Model */,
 				4A5B05C11CDB671700044517 /* AppDelegate.h */,
-				2FB8ABC01CDB7B2100D47097 /* Main1.storyboard */,
+				2FB8ABC01CDB7B2100D47097 /* Main.storyboard */,
 				4A5B05C21CDB671700044517 /* AppDelegate.m */,
 				4A5B05C41CDB671700044517 /* ViewController.h */,
 				4A5B05C51CDB671700044517 /* ViewController.m */,
