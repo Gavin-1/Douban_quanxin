@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26E7BB311CDC74F500EA3144 /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E7BB301CDC74F500EA3144 /* CDSideBarController.m */; };
 		2FB8ABBB1CDB6D8700D47097 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8ABB61CDB6D8700D47097 /* LoginViewController.m */; };
 		2FB8ABBC1CDB6D8700D47097 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8ABB81CDB6D8700D47097 /* SidebarController.m */; };
 		2FB8ABBD1CDB6D8700D47097 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8ABBA1CDB6D8700D47097 /* UserInfoViewController.m */; };
-		2FB8ABC11CDB7B2100D47097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB8ABC01CDB7B2100D47097 /* Main.storyboard */; };
 		4A5B05C01CDB671700044517 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05BF1CDB671700044517 /* main.m */; };
 		4A5B05C31CDB671700044517 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05C21CDB671700044517 /* AppDelegate.m */; };
 		4A5B05C61CDB671700044517 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05C51CDB671700044517 /* ViewController.m */; };
@@ -34,12 +34,11 @@
 
 /* Begin PBXFileReference section */
 		05EA02610361EE75E37283D5 /* Pods-Douban_quanxin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban_quanxin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douban_quanxin/Pods-Douban_quanxin.release.xcconfig"; sourceTree = "<group>"; };
+		26E7BB2F1CDC74F500EA3144 /* CDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDSideBarController.h; path = Douban_quanxin/CDSideBarController.h; sourceTree = "<group>"; };
+		26E7BB301CDC74F500EA3144 /* CDSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDSideBarController.m; path = Douban_quanxin/CDSideBarController.m; sourceTree = "<group>"; };
 		27F479C615DC837D4E4775A7 /* Pods-Douban_quanxin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban_quanxin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douban_quanxin/Pods-Douban_quanxin.debug.xcconfig"; sourceTree = "<group>"; };
-		2FB8ABB51CDB6D8700D47097 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		2FB8ABB61CDB6D8700D47097 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		2FB8ABB71CDB6D8700D47097 /* SidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarController.h; sourceTree = "<group>"; };
 		2FB8ABB81CDB6D8700D47097 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarController.m; sourceTree = "<group>"; };
-		2FB8ABB91CDB6D8700D47097 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
 		2FB8ABBA1CDB6D8700D47097 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
 		2FB8ABC01CDB7B2100D47097 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		38E5C9B03C9161D987B044B4 /* libPods-Douban_quanxin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Douban_quanxin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,24 +91,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2FB8ABB41CDB6D5000D47097 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-				2FB8ABB51CDB6D8700D47097 /* LoginViewController.h */,
-				2FB8ABB61CDB6D8700D47097 /* LoginViewController.m */,
-				2FB8ABB71CDB6D8700D47097 /* SidebarController.h */,
-				2FB8ABB81CDB6D8700D47097 /* SidebarController.m */,
-				2FB8ABB91CDB6D8700D47097 /* UserInfoViewController.h */,
-				2FB8ABBA1CDB6D8700D47097 /* UserInfoViewController.m */,
-			);
-			name = CDSideBarController;
-			path = Douban_quanxin;
-			sourceTree = "<group>";
-		};
 		4A5B05B21CDB671700044517 = {
 			isa = PBXGroup;
 			children = (
-				26E893141CDB6B46005201C0 /* CDSideBarController */,
+				26E7BB2F1CDC74F500EA3144 /* CDSideBarController.h */,
+				26E7BB301CDC74F500EA3144 /* CDSideBarController.m */,
 				4A5B05BD1CDB671700044517 /* Douban_quanxin */,
 				4A5B05BC1CDB671700044517 /* Products */,
 				FA7754BE34EC05D95FA83E3E /* Pods */,
@@ -323,6 +309,7 @@
 				4A5B05C61CDB671700044517 /* ViewController.m in Sources */,
 				4A5B05E61CDB684D00044517 /* ChannelInfo.m in Sources */,
 				4A5B05F31CDB688400044517 /* ProtocolClass.m in Sources */,
+				26E7BB311CDC74F500EA3144 /* CDSideBarController.m in Sources */,
 				2FB8ABBB1CDB6D8700D47097 /* LoginViewController.m in Sources */,
 				4A5B05C31CDB671700044517 /* AppDelegate.m in Sources */,
 				4A5B05E81CDB684D00044517 /* DFMPlaylist.m in Sources */,
