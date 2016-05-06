@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		26E7BB311CDC74F500EA3144 /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E7BB301CDC74F500EA3144 /* CDSideBarController.m */; };
+		26E7BB391CDC773100EA3144 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E7BB341CDC773100EA3144 /* LoginViewController.m */; };
+		26E7BB3A1CDC773100EA3144 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E7BB361CDC773100EA3144 /* SidebarController.m */; };
+		26E7BB3B1CDC773100EA3144 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E7BB381CDC773100EA3144 /* UserInfoViewController.m */; };
 		2FB8ABBB1CDB6D8700D47097 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8ABB61CDB6D8700D47097 /* LoginViewController.m */; };
 		2FB8ABBC1CDB6D8700D47097 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8ABB81CDB6D8700D47097 /* SidebarController.m */; };
 		2FB8ABBD1CDB6D8700D47097 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8ABBA1CDB6D8700D47097 /* UserInfoViewController.m */; };
@@ -36,6 +39,12 @@
 		05EA02610361EE75E37283D5 /* Pods-Douban_quanxin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban_quanxin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douban_quanxin/Pods-Douban_quanxin.release.xcconfig"; sourceTree = "<group>"; };
 		26E7BB2F1CDC74F500EA3144 /* CDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDSideBarController.h; path = Douban_quanxin/CDSideBarController.h; sourceTree = "<group>"; };
 		26E7BB301CDC74F500EA3144 /* CDSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDSideBarController.m; path = Douban_quanxin/CDSideBarController.m; sourceTree = "<group>"; };
+		26E7BB331CDC773100EA3144 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Douban_quanxin/LoginViewController.h; sourceTree = "<group>"; };
+		26E7BB341CDC773100EA3144 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Douban_quanxin/LoginViewController.m; sourceTree = "<group>"; };
+		26E7BB351CDC773100EA3144 /* SidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SidebarController.h; path = Douban_quanxin/SidebarController.h; sourceTree = "<group>"; };
+		26E7BB361CDC773100EA3144 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SidebarController.m; path = Douban_quanxin/SidebarController.m; sourceTree = "<group>"; };
+		26E7BB371CDC773100EA3144 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserInfoViewController.h; path = Douban_quanxin/UserInfoViewController.h; sourceTree = "<group>"; };
+		26E7BB381CDC773100EA3144 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserInfoViewController.m; path = Douban_quanxin/UserInfoViewController.m; sourceTree = "<group>"; };
 		27F479C615DC837D4E4775A7 /* Pods-Douban_quanxin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban_quanxin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douban_quanxin/Pods-Douban_quanxin.debug.xcconfig"; sourceTree = "<group>"; };
 		2FB8ABB61CDB6D8700D47097 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		2FB8ABB81CDB6D8700D47097 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarController.m; sourceTree = "<group>"; };
@@ -91,6 +100,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26E7BB321CDC76E500EA3144 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				26E7BB331CDC773100EA3144 /* LoginViewController.h */,
+				26E7BB341CDC773100EA3144 /* LoginViewController.m */,
+				26E7BB351CDC773100EA3144 /* SidebarController.h */,
+				26E7BB361CDC773100EA3144 /* SidebarController.m */,
+				26E7BB371CDC773100EA3144 /* UserInfoViewController.h */,
+				26E7BB381CDC773100EA3144 /* UserInfoViewController.m */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		26E7BB3D1CDC776C00EA3144 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		4A5B05B21CDB671700044517 = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +144,9 @@
 		4A5B05BD1CDB671700044517 /* Douban_quanxin */ = {
 			isa = PBXGroup;
 			children = (
+				26E7BB321CDC76E500EA3144 /* Controller */,
 				4A5B05DB1CDB683300044517 /* Model */,
+				26E7BB3D1CDC776C00EA3144 /* View */,
 				4A5B05C11CDB671700044517 /* AppDelegate.h */,
 				2FB8ABC01CDB7B2100D47097 /* Main.storyboard */,
 				4A5B05C21CDB671700044517 /* AppDelegate.m */,
@@ -306,8 +338,10 @@
 			files = (
 				4A5B05F91CDB68B400044517 /* UserInfo.m in Sources */,
 				2FB8ABBC1CDB6D8700D47097 /* SidebarController.m in Sources */,
+				26E7BB3A1CDC773100EA3144 /* SidebarController.m in Sources */,
 				4A5B05C61CDB671700044517 /* ViewController.m in Sources */,
 				4A5B05E61CDB684D00044517 /* ChannelInfo.m in Sources */,
+				26E7BB3B1CDC773100EA3144 /* UserInfoViewController.m in Sources */,
 				4A5B05F31CDB688400044517 /* ProtocolClass.m in Sources */,
 				26E7BB311CDC74F500EA3144 /* CDSideBarController.m in Sources */,
 				2FB8ABBB1CDB6D8700D47097 /* LoginViewController.m in Sources */,
@@ -318,6 +352,7 @@
 				4A5B05E71CDB684D00044517 /* DFMHotChannelsEntity.m in Sources */,
 				4A5B05F81CDB68B400044517 /* SongInfo.m in Sources */,
 				4A5B05F11CDB688400044517 /* NetworkManager.m in Sources */,
+				26E7BB391CDC773100EA3144 /* LoginViewController.m in Sources */,
 				2FB8ABBD1CDB6D8700D47097 /* UserInfoViewController.m in Sources */,
 				4A5B05F21CDB688400044517 /* PlayerController.m in Sources */,
 				4A5B05E91CDB684D00044517 /* DFMRecChannelsEntity.m in Sources */,
